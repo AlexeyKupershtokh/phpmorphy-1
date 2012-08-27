@@ -1,0 +1,9 @@
+language: php
+php:
+  - 5.3
+  - 5.4
+before_script:
+  - wget -O "dicts/morphy-0.3.x-ru_RU-withjo-utf-8.zip" "http://downloads.sourceforge.net/project/phpmorphy/phpmorphy-dictionaries/0.3.x/ru_RU/morphy-0.3.x-ru_RU-withjo-utf-8.zip?r=http%3A%2F%2Fsourceforge.net%2Fprojects%2Fphpmorphy%2Ffiles%2Fphpmorphy-dictionaries%2F0.3.x%2Fru_RU%2Fmorphy-0.3.x-ru_RU-withjo-utf-8.zip%2Fdownload&ts=1346042715&use_mirror=dfn"
+  - mkdir dicts/utf-8
+  - unzip -o dicts/morphy-0.3.x-ru_RU-withjo-utf-8.zip -d dicts/utf-8
+script: phpunit --bootstrap tests/bootstrap.php .
