@@ -1,3 +1,5 @@
+[![Build Status](https://secure.travis-ci.org/AlexeyKupershtokh/phpmorphy-1.png?branch=master)](http://travis-ci.org/AlexeyKupershtokh/phpmorphy-1)
+
 phpMorphy -- morphological analyzer library for Russisan, English and German languages
 
 Website (in russian): http://phpmorphy.sourceforge.net/
