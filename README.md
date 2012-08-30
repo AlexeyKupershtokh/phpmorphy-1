@@ -3,6 +3,7 @@
 phpMorphy -- morphological analyzer library for Russisan, English and German languages
 
 Website (in russian): http://phpmorphy.sourceforge.net/
+
 SF project: http://sourceforge.net/projects/phpmorphy
 
 
@@ -37,8 +38,8 @@ This library allow retireve follow morph information for any word:
     *-----------------------------------------------------------*
 
 Note: 
-  All values are words per second speed.
-  Test platform: PHP 5.2.3, AMD Duron 800 with 512Mb memory, WinXP
+ - All values are words per second speed.
+ - Test platform: PHP 5.2.3, AMD Duron 800 with 512Mb memory, WinXP
 
 # INSTALLATION
  See INSTALL file in current directory
